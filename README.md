@@ -1,3 +1,9 @@
+Here is the **fully corrected and clean version**.
+
+I have removed all the invisible spaces causing the HTML to break, fixed the weird link formatting in the `git clone` command, and completed the Contributors section at the bottom.
+
+Copy this entire block, replace everything in your `README.md` file, and commit it. It will look perfect!
+
 ---
 
 ```markdown
@@ -99,6 +105,7 @@ The frontend will be accessible at `http://localhost:5173`.
 This project was developed as a Final Year Project by:
 
 * **Muhammad Wasiq Nadeem**
+* **Muhammad Dawood**
 
 ```
 
