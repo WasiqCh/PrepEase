@@ -1,8 +1,3 @@
-Here is the 100% final, corrected text. 
-
-### **How to copy this correctly:**
-Highlight the text starting **exactly** at `<h1` and end **exactly** at `Dawood**`. Do not copy anything above or below it.
-
 ***
 
 <h1 align="center">🎓 PrepEase: AI-Assisted Educational Platform</h1>
@@ -82,3 +77,25 @@ npm start
 # Terminal 2: Start the React frontend
 cd frontend
 npm run dev
+
+```
+
+
+
+The frontend will be accessible at `http://localhost:5173`.
+
+
+
+## 👨‍💻 Contributors
+
+
+
+This project was developed as a Final Year Project by:
+
+
+
+* **Muhammad Wasiq Nadeem**
+
+
+
+```
