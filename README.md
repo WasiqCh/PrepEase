@@ -95,7 +95,3 @@ This project was developed as a Final Year Project by:
 
 
 * **Muhammad Wasiq Nadeem**
-
-
-
-```
