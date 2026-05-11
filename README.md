@@ -1,26 +1,18 @@
-Ah, I see exactly what is happening!
+Here is the 100% final, corrected text. 
 
-GitHub's Markdown parser is getting confused because it hates mixing HTML (like `<div align="center">`) with Markdown image syntax (`![React]...`). When you put them together, GitHub just gives up and shows the raw code.
+### **How to copy this correctly:**
+Highlight the text starting **exactly** at `<h1` and end **exactly** at `Dawood**`. Do not copy anything above or below it.
 
-Let's completely remove the Markdown image syntax and use **pure HTML** for the badges. This is the 100% bulletproof way that all professional open-source repositories use to center badges.
+***
 
-### **The Final Fix**
-
-Make sure you are on the **"Edit"** tab on GitHub (not the "Preview" tab). Copy this entire block and replace everything in your `README.md`.
-
-Notice how I changed the `![React]` parts to `<img />` tags. This guarantees it will center perfectly!
-
----
-
-```html
 <h1 align="center">🎓 PrepEase: AI-Assisted Educational Platform</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+<img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini" />
 </p>
 
 <br />
@@ -57,25 +49,19 @@ PrepEase is built on a **Polyglot Microservice-Oriented Architecture** to achiev
 ```bash
 git clone [https://github.com/your-username/prepease.git](https://github.com/your-username/prepease.git)
 cd prepease
-
 ```
 
 ### 2. Environment Variables
-
 Create a `.env` file in the `backend/` directory using the following template:
-
 ```env
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_super_secret_jwt_key
 GEMINI_API_KEY=your_google_gemini_api_key
 PORT=5001
-
 ```
 
 ### 3. Install Dependencies
-
 Install modules for both the frontend and backend architectures.
-
 ```bash
 # Install backend dependencies
 cd backend
@@ -84,13 +70,10 @@ npm install
 # Install frontend dependencies
 cd ../frontend
 npm install
-
 ```
 
 ### 4. Start the Application
-
 You will need two terminal windows to run the decoupled architecture locally.
-
 ```bash
 # Terminal 1: Start the backend Node server
 cd backend
@@ -99,20 +82,3 @@ npm start
 # Terminal 2: Start the React frontend
 cd frontend
 npm run dev
-
-```
-
-The frontend will be accessible at `http://localhost:5173`.
-
-## 👨‍💻 Contributors
-
-This project was developed as a Final Year Project by:
-
-* **Muhammad Wasiq Nadeem**
-* **Muhammad Dawood**
-
-```
-
-*** Commit this directly, and the badges will finally sit perfectly in the center of the page without showing any weird HTML tags!
-
-```
